@@ -1,0 +1,27 @@
+module.exports = [
+  { "name": "Alfred",
+    "hair": "ginger",
+    "eyes": "blue",
+    "gender": "male"
+  },
+  { "name": "Anita",
+    "hair": "blonde",
+    "eyes": "blue",
+    "gender": "personal"
+  },
+  { "name": "Susan",
+    "hair": "white",
+    "eyes": "brown",
+    "gender": "female"
+  },
+  { "name": "Tom",
+    "hair": "bald",
+    "eyes": "blue",
+    "gender": "male"
+  },
+  { "name": "Joe",
+    "hair": "blonde",
+    "eyes": "brown",
+    "gender": "male"
+  }
+]
