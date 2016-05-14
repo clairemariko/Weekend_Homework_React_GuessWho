@@ -2,6 +2,8 @@ var assert = require('chai').assert;
 var Game = require('../Game/game');
 var Character = require('../Game/characters');
 
+import characters = require('../sample.json');
+
   describe('game', function(){
 
     it('should have start off with no characters', function(){
@@ -35,7 +37,8 @@ var Character = require('../Game/characters');
     });
 
     it('should return true that guest has ginger hair', function(){
-
+      var guest = ({name:'Alfred',hair:'ginger', eyes:'blue', gender:'male'});
+      assert.equal(true, game.guest.hair)
 
     })
 
