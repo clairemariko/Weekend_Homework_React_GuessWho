@@ -36,11 +36,22 @@ import characters = require('../sample.json');
       assert.equal(guest, game.addGuest[0])
     });
 
+    //use booleans to check that the game will return true or false given specifics. 
+
     it('should return true that guest has ginger hair', function(){
       var guest = ({name:'Alfred',hair:'ginger', eyes:'blue', gender:'male'});
-      assert.equal(true, game.guest.hair)
+      assert.equal(guest.hair, true);
 
-    })
+    });
+
+    it('should return false that guest has brown hair', function(){
+      var guest =
+      assert.equal()
+    });
+
+    it('should return true if the guest is guessed', function(){
+
+    });
 
 
 
