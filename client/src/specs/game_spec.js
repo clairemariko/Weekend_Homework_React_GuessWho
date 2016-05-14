@@ -27,10 +27,17 @@ var Character = require('../Game/characters');
 
     it('should be able to select a guest randomly from the array of characters', function(){
       var game = new Game([characterOne, characterTwo]);
-      game.selectGuest(character);
-      assert.equal(character, )
-
+      var guest = null;
+      var characterOne = new Character({name:'Alfred',hair:'ginger', eyes:'blue', gender:'male'});
+      var characterTwo = new Character({name:'Anita',hair:'blonde', eyes:'blue', gender:'female'});
+      game.addGuest(characterOne, characterTwo);
+      assert.equal(guest, game.addGuest[0])
     });
+
+    it('should return true that guest has ginger hair', function(){
+
+
+    })
 
 
 
