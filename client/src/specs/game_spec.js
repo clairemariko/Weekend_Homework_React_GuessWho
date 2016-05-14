@@ -25,7 +25,14 @@ var Character = require('../Game/characters');
       assert.equal(2, game.characters.length);
     });
 
-    
+    it('should be able to select a guest randomly from the array of characters', function(){
+      var game = new Game([characterOne, characterTwo]);
+      game.selectGuest(character);
+      assert.equal(character, )
+
+    });
+
+
 
  })
 
