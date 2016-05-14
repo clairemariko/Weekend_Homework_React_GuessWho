@@ -1,10 +1,11 @@
 var React = require('react');
+var sampleCharacter = require('../sample.json');
 
   
 
   var GameBox = React.createClass({
     getInitialState:function(){
-      return {data: []};
+      return {characters: sampleCharacter};
     },
 
 

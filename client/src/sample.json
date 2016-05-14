@@ -7,7 +7,7 @@ module.exports = [
   { "name": "Anita",
     "hair": "blonde",
     "eyes": "blue",
-    "gender": "personal"
+    "gender": "female"
   },
   { "name": "Susan",
     "hair": "white",

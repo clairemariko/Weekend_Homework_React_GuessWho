@@ -20153,12 +20153,13 @@
 	'use strict';
 	
 	var React = __webpack_require__(1);
+	var sampleCharacter = __webpack_require__(169);
 	
 	var GameBox = React.createClass({
 	  displayName: 'GameBox',
 	
 	  getInitialState: function getInitialState() {
-	    return { data: [] };
+	    return { characters: sampleCharacter };
 	  },
 	
 	  render: function render() {
@@ -20172,6 +20173,38 @@
 	});
 	
 	module.exports = GameBox;
+
+/***/ },
+/* 169 */
+/***/ function(module, exports) {
+
+	module.exports = [
+	  { "name": "Alfred",
+	    "hair": "ginger",
+	    "eyes": "blue",
+	    "gender": "male"
+	  },
+	  { "name": "Anita",
+	    "hair": "blonde",
+	    "eyes": "blue",
+	    "gender": "female"
+	  },
+	  { "name": "Susan",
+	    "hair": "white",
+	    "eyes": "brown",
+	    "gender": "female"
+	  },
+	  { "name": "Tom",
+	    "hair": "bald",
+	    "eyes": "blue",
+	    "gender": "male"
+	  },
+	  { "name": "Joe",
+	    "hair": "blonde",
+	    "eyes": "brown",
+	    "gender": "male"
+	  }
+	]
 
 /***/ }
 /******/ ]);
